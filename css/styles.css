@@ -1,0 +1,154 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.clearfix{
+	float: none;
+	clear: both;
+}
+
+body{
+	background: url('../img/hojas.jpg');
+	background-attachment: fixed;
+}
+
+#global{
+	width: 65%;
+	margin: 0 auto;
+	margin-top: 30px;
+	background-color: white;
+	padding:20px;
+	box-shadow: 2px 2px 3px #ccc;
+}
+
+#logo{
+	font-family: verdana;
+	letter-spacing: 4px;
+	background: #235e3d;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	width:380px;
+	height: 80px;
+	float: left;
+	line-height: 75px;
+	text-transform: uppercase;
+}
+
+header{
+	display: flex;
+	flex-direction: column;
+}
+
+
+#menu{
+	background-color: #333;
+	width: 100%;
+	text-transform: uppercase;
+	font-family: helvetica;
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+#menu ul{
+	display: -webkit-inline-box;
+}
+
+#menu ul li{
+	display: -webkit-inline-box;
+	padding: 15px;
+	transition: all 300ms;
+	color: white;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#menu ul li:hover{
+	background: #235e3d;
+}
+
+#menu ul li a{
+
+text-decoration: none;
+}
+
+.postDate{
+	font-weight: bold;
+	font-family: helvetica;
+	color: #333333;
+}
+
+#posts{
+	width: 60%;
+	font-family: helvetica, arial;
+	display: inline-block;
+}
+
+article .posts{
+	padding: 5px;	
+}
+
+.post h2{
+	font-size: 25px;
+	color: #333;
+	margin-bottom: 5px;
+}
+
+.post{
+	padding: 10px;
+}
+
+.postDate{
+	color: gray;
+}
+
+#posts p{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	line-height: 20px;
+}
+
+.buttonmore{
+	padding: 15px;
+	background: #235e3d;
+	text-decoration: none;
+	color: white;
+}
+
+
+#content{
+	display: flex;
+	justify-content: space-between;
+}
+
+.whoamI{
+	width: 40%;
+	font-family: helvetica, arial;
+	display: inline-block;
+	padding: 10px;
+}
+
+.whoamI p {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	line-height: 20px;
+}
+
+picture img{
+	width: 100%;
+}
+
+.figcaption1{
+	font-size: 15px;
+	font-family: helvetica, arial;	
+	font-weight: bold;	
+
+}
+
+.figcaption2{
+	font-size: 12px;
+	font-family: helvetica, arial;		
+
+}
