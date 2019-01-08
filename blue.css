@@ -1,0 +1,21 @@
+
+#logo{
+
+	background: steelblue;
+
+}
+
+.buttonmore{
+
+	background: steelblue;
+
+}
+
+
+#menu ul li:hover{
+	background: steelblue;
+}
+
+body{
+	background: url('cielo.jpg');
+}

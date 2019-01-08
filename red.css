@@ -1,0 +1,16 @@
+
+#logo{
+	background: #D32F1B;
+}
+
+.buttonmore{
+	background: #D32F1B;
+}
+
+#menu ul li:hover{
+	background: #D32F1B;
+}
+
+body{
+	background: url('rojo.jpg');
+}

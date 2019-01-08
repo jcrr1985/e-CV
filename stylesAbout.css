@@ -1,0 +1,490 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+
+}
+
+.clearfix{
+	float: none;
+	clear: both;
+}
+
+body{
+	
+	overflow-x: hidden;
+	background-attachment: fixed;
+	width: 99%;
+}
+
+#global{
+	width: 65%;
+	margin: 0 auto;
+	margin-top: 30px;
+	background-color: white;
+	padding:20px;
+	box-shadow: 2px 2px 3px #ccc;
+	margin-bottom: 30px;
+}
+
+#logo{
+	font-family: verdana;
+	letter-spacing: 4px;
+
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	width:auto;
+	height: auto;
+	float: left;
+	line-height: 75px;
+	text-transform: uppercase;
+	padding-right: 25px;
+	padding-left: 25px;
+	margin-right: 10px;
+}
+
+header{
+	display: flex;
+	flex-direction: column;
+}
+
+
+#menu{
+	background-color: #333;
+	width: 100%;
+	text-transform: uppercase;
+	font-family: helvetica;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+
+#menu ul li{
+	display: -webkit-inline-box;
+	padding: 15px;
+	transition: all 300ms;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#menu ul li:hover{
+	cursor: pointer;
+}
+
+#menu ul li a{
+
+text-decoration: none;
+color: orange;
+padding: 15px;
+}
+
+article.post{
+	display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.postDate{
+	font-weight: bold;
+	font-family: helvetica;
+	color: gray;
+}
+
+.postDate2{
+	font-weight: bold;
+	font-family: helvetica;
+	color: gray;
+}
+
+.post h2{
+	font-size: 25px;
+	color: #333;
+	margin-bottom: 5px;
+}
+
+.post{
+	padding: 10px;
+	padding-right: 35px;
+
+}
+
+.postDate{
+	color: gray;
+}
+
+.post p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	line-height: 20px;
+	text-align: justify;
+	font-family: helvetica, arial;
+}
+
+ .post hr{
+	border: 1px solid #e7e7e7;
+}
+
+#firstHr{
+	border: 1px solid #e7e7e7;
+	margin-top: 5px;
+}
+
+.postN{
+	margin-bottom: 25px;
+}
+
+
+
+#contentSecondP{
+	margin-bottom: 5px!important;
+}
+
+.buttonmore{
+	padding: 13px;
+
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	margin: 10px;
+	margin-left: 0px!important;
+	font-family: helvetica;
+	letter-spacing: 2px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px gray;
+	font-size: 14px;
+}
+
+
+#content{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.whoamI{
+	width: 23%;
+	font-family: helvetica, arial;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+	padding: 10px;
+	text-align: center;
+
+}
+
+.whoamI p {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	line-height: 20px;
+	width: auto;
+	text-align: justify;
+}
+
+.whoamI #aboutme {
+	margin-top: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background: url('lines.png') repeat;
+
+}
+
+.whoamI span{
+	background:white;
+	padding: 5px;
+}
+picture img{
+	width: 100%;
+}
+
+.figcaption1{
+	font-size: 15px;
+	font-family: helvetica, arial;	
+	font-weight: bold;	
+
+}
+
+.figcaption2{
+	font-size: 12px;
+	font-family: helvetica, arial;		
+
+}
+
+
+#login{
+
+}
+
+#loginForm{
+	 display: flex;
+	 flex-direction: column;
+	 align-items: center;
+	 margin-top: 10px;
+	 margin-bottom: 10px;
+	 padding: 5px;
+}
+
+#loginForm label{
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+
+#login input{
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	height: 25px;
+	box-shadow: 0px 0px 5px gray;
+}
+
+#login input:focus{
+	background-color: #ccc;
+}
+
+input[type="submit"]{
+	margin-top: 15px;
+	margin-bottom: 10px;
+	padding:7px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 5px gray;
+	background: #ccc;
+	color: #333333;
+}
+
+h4, h2, figcaption, span{
+	color: #333333;
+}
+
+fieldset{
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: 2px solid #d2d1d1;
+}
+
+legend{
+	padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+#megaheader{
+	display: flex;
+	justify-content: space-between;
+}
+
+#rightHead{
+	width: auto;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+#change-theme{
+	position: fixed;
+	top: 40%;
+	width: 50px;
+	height:150px;
+	background-color: rgba(51,51,51,.5);
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	margin-left: 5px;
+}
+
+#change-theme div{
+	width: 23px;
+	height: 23px;
+	border: 1px solid rgba(255,255,255,.6);
+	border-radius: 7px;
+	margin-bottom: 7px;
+	margin-top: 5px;
+	transition: all 1.5s;
+}
+
+#change-theme div:hover{
+	width: 25px;
+	height: 25px;
+	border: 1px solid rgba(255,255,255,.6);
+	border-radius: 7px;
+
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+
+#change-theme div:nth-child(1) {
+  background: #235e3d;
+}
+
+#change-theme div:nth-child(2) {
+  background: steelblue;
+}
+
+#change-theme div:nth-child(3) {
+  background: #D32F1B;
+}
+
+footer{
+	display: flex;
+	height: 50px;
+	background: rgba(51, 51, 51, 0.7);
+	margin: 0 auto;
+	width: 65%;
+	margin-top: 50px;
+	line-height: 40px;
+	justify-content: space-around;
+	align-items: center;
+	vertical-align: middle;
+}
+
+.goUp {
+	text-decoration: none;
+	color:white;
+	font-family: Helvetica,arial;
+	text-shadow: 2px 2px 8px yellow;
+	cursor: pointer;
+	font-family: Helvetica, arial;
+}
+
+.miCV{
+	color:white;
+	font-weight: bold;
+	font-family: Vivaldi,Arial;
+	text-shadow: 2px 2px 8px yellow;
+}
+
+.themeChanger{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-shadow: 0px 0px 5px #FFF;
+}
+
+#box{
+	font-size: 14px;
+
+}
+
+#accordion li{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	list-style-type: circle!important;
+
+}
+
+.exp{
+	color: cadetblue;
+	font-weight: bold;
+
+}
+
+.sep{
+margin:15px 0
+
+}
+
+.acts{
+	margin:15px 0;
+	font-weight: bold;
+}
+
+
+#logo{
+	animation: circle 3s infinite alternate;
+
+}
+
+@keyframes circle{
+	from{
+		transform: rotate(-20deg);
+	}
+	to{
+		transform: rotate(20deg);
+	}
+}
+
+.contact{
+	color: blue;
+	text-decoration: underline;
+}
+
+.ui-accordion-content{
+	height: auto!important;
+}
+
+.picUpRight{
+	display: none;
+}
+
+
+@media screen and (max-width: 768px){
+
+
+	#global{
+		width: 100%;
+	}
+
+	.picUpRight{
+		display: block;
+	}
+	.postDate{
+		display: none;
+	}
+
+	.whoamI{
+		display: none;
+	}
+	#change-theme{
+		display: none;
+	}
+
+	#logo{
+	   margin-top: 50px;
+	   font-size: 20px;
+	   line-height: 37px;
+	   animation: circle 3s infinite alternate;
+	   padding: 10px;
+	   box-shadow: 3px 3px 10px black;
+	}
+
+
+	@keyframes circle{
+		from{
+			transform: rotate(0deg);
+		}
+		to{
+			transform: rotate(360deg);
+		}
+	}
+
+	#menu ul li{
+		padding: 8px;
+		transition: all 300ms;
+		margin-left: 3px;
+		margin-right: 3px;
+	}
+
+	#menu ul li a{
+		padding: 8px;
+	}
+
+}
+
+
+.contactame ul li a{
+
+	font-family: Helvetica, arial;
+	font-size: 14px;
+
+}
+
+.contactame{
+	padding: 15px;	
+}
+
+
