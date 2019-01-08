@@ -5,6 +5,9 @@
 	transition: all 1s;
 }
 
+
+body, html { overflow-x:hidden; }
+
 #logo{
 	animation: circle 3s infinite alternate;
 
